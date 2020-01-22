@@ -1,0 +1,40 @@
+{
+  "name": "Apprenti-401-Lab-05",
+  "version": "1.0.0",
+  "description": "Data Modeling with MongoDB",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "lint": "eslint '**/*.js'",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "start": "node index.js",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LindsayPeltier-401-advanced-javascript/Apprenti-401-Lab-05.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LindsayPeltier-401-advanced-javascript/Apprenti-401-Lab-05/issues"
+  },
+  "homepage": "https://github.com/LindsayPeltier-401-advanced-javascript/Apprenti-401-Lab-05#readme",
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.0.1",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "jest-cli": "^25.1.0",
+    "jsdoc": "^3.6.3",
+    "jsdocs": "^1.0.0",
+    "lint": "^0.7.0",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.8.9",
+    "node": "^13.6.0",
+    "supergoose": "^0.2.6"
+  }
+}
