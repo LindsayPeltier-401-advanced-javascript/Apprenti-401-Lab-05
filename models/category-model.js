@@ -4,7 +4,7 @@ const mongoModel = require('../models/mongo-model');
 const schema = require('../schema/category-schema');
 /**
  * @class Categories
- * @extends {dataModel}
+ * @extends {mongoModel}
  */
 class Categories extends mongoModel {
   constructor() {
