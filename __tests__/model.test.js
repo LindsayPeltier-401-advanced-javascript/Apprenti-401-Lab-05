@@ -20,4 +20,22 @@ describe('CRUD functionality', () => {
     let fetchObj = await model.get(createObj._id);
     expect(fetchObj._id).toEqual(createObj._id);
   });
+
+  it('can update a record', async () => {
+    const obj = { name: 'saucers', count: 6 };
+    const update = { name: 'saucers' };
+    const createObj = await model.create(obj);
+    const updateObj = await model.update(createObj._id, update);
+    Object.keys(update).forEach(key => {
+      expect(updateObj[key]).not.toEqual(obj[key]);
+    });
+  });
+
+  it('deletes a record', async () => {
+    const obj = { name: 'DELETE', count: 1 };
+    let createObj = await model.create(obj);
+    await model.delete(createObj._id);
+    let fetchObj = await model.get(createObj._id);
+    expect(fetchObj).toBeNull();
+  });
 });
