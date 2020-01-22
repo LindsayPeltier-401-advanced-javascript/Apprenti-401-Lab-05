@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [Submission PR]()
+- [Submission PR](https://github.com/LindsayPeltier-401-advanced-javascript/Apprenti-401-Lab-05/pull/1)
 - [Travis]()
 
 ### Documentation
@@ -31,4 +31,4 @@ Run NPM test
 
 ### UML
 
-![](./assets/lab05UML.jpg)
+![](./assets/Lab05UML.jpeg)
