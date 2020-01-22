@@ -7,7 +7,7 @@
 ### Links and Resources
 
 - [Submission PR](https://github.com/LindsayPeltier-401-advanced-javascript/Apprenti-401-Lab-05/pull/1)
-- [Travis]()
+- [Travis](https://www.travis-ci.com/LindsayPeltier-401-advanced-javascript/Apprenti-401-Lab-05)
 
 ### Documentation
 
@@ -28,6 +28,7 @@ Run NPM start
 ### Tests
 
 Run NPM test
+Run NPM lint
 
 ### UML
 
