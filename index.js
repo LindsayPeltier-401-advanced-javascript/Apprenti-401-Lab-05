@@ -29,10 +29,10 @@ let products = new Products();
 
 products
   .create(productTest)
-  .then(res => console.log(res))
-  .catch(err => console.log(err));
+  .then(response => console.log(response))
+  .catch(error => console.log(error));
 
 categories
   .create(categoriesTest)
-  .then(res => console.log(res))
-  .catch(err => console.log(err));
+  .then(response => console.log(response))
+  .catch(error => console.log(error));
