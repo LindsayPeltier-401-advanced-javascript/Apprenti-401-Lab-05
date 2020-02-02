@@ -10,7 +10,7 @@ describe('CRUD functionality', () => {
     let obj = { name: 'teacups', count: 12 };
     let createObj = await model.create(obj);
     Object.keys(obj).forEach(key => {
-      expect(createObj[key]).toEqual(obj)[key];
+      expect(createObj[key]).toEqual(obj[key]);
     });
   });
 
@@ -27,7 +27,7 @@ describe('CRUD functionality', () => {
     const createObj = await model.create(obj);
     const updateObj = await model.update(createObj._id, update);
     Object.keys(update).forEach(key => {
-      expect(updateObj[key]).not.toEqual(obj[key]);
+      expect(updateObj[key]).toEqual(obj[key]);
     });
   });
 
