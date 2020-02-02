@@ -4,15 +4,14 @@ const mongoose = require('mongoose');
 
 const categories = new mongoose.Schema({
   name: { type: 'string', required: true },
-  price: { type: 'number', required: true },
-  quantity_in_stock: { type: 'number', required: true }
+  count: { type: 'number', required: true },
 });
 
 /**
  * @function
  * @returns console.log()
  */
-categories.post('findOne', function() {
+categories.post('findOne', function () {
   console.log('Record found, returning data');
 });
 
@@ -20,7 +19,7 @@ categories.post('findOne', function() {
  * @function
  * @returns console.log()
  */
-categories.post('find', function() {
+categories.post('find', function () {
   console.log('Record not found');
 });
 
@@ -28,7 +27,7 @@ categories.post('find', function() {
  * @function
  * @returns console.log()
  */
-categories.post('save', function() {
+categories.post('save', function () {
   console.log('Record saved to database');
 });
 

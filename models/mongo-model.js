@@ -1,10 +1,12 @@
 'use strict';
 
+const schema = require('../schemas/category-schema');
+
 /**
  * @class Model
  */
 class Model {
-  constructor(schema) {
+  constructor() {
     this.schema = schema;
   }
 
