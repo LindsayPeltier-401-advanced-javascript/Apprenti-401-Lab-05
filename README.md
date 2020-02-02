@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [Submission PR](https://github.com/LindsayPeltier-401-advanced-javascript/Apprenti-401-Lab-05/pull/1)
+- [Submission PR](https://github.com/LindsayPeltier-401-advanced-javascript/Apprenti-401-Lab-05/pull/2)
 - [Travis](https://www.travis-ci.com/LindsayPeltier-401-advanced-javascript/Apprenti-401-Lab-05)
 
 ### Documentation
